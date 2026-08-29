@@ -538,6 +538,7 @@ print(challenge.startswith('thirty')) # False (no empieza con 'thirty')
 ## 💻 Ejercicios - Día 4
 
 1. Une las cadenas 'Thirty', 'Days', 'Of', 'Python' en 'Thirty Days Of Python'.
+
 2. Une las cadenas 'Coding', 'For', 'All' en 'Coding For All'.
 3. Declara la variable `company` y asígnale el valor inicial "Coding For All".
 4. Imprime la variable `company` usando `print()`.
