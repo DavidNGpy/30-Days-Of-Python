@@ -540,6 +540,9 @@ Para ordenar una lista podemos usar el método *sort()* o la función incorporad
 ### Ejercicios: Nivel 1
 
 1. Declara una lista vacía
+
+
+
 2. Declara una lista con más de 5 elementos
 3. Encuentra la longitud de la lista
 4. Obtén el primer, medio y último elemento de la lista
