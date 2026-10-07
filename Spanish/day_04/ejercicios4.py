@@ -50,10 +50,11 @@ print(str.index('F'))
 #22. Usa `rfind` para determinar la última aparición de 'l' en 'Coding For All People'.
 print(str.rfind('l'))
 #23. Usa `index` o `find` para encontrar la primera aparición de la palabra 'because' en: 'You cannot end a sentence with because because because is a conjunction'
-print(str.index('because'))
+frase = 'You cannot end a sentence with because because because is a conjunction'
+print(frase.index('because'))
 #25. Elimina la frase 'because because because' de: 'You cannot end a sentence with because because because is a conjunction'.
-frase='You cannot end a sentence with because because because is a conjunction'
-print(str.replace('because because because', ''))
+frase = 'You cannot end a sentence with because because because is a conjunction'
+print(frase.replace('because because because', ''))
 #27. Elimina la frase 'because because because' de la oración anterior.
 print(frase.replace('because because because', ''))
 #28. ¿La cadena 'Coding For All' empieza con la subcadena 'Coding'?
@@ -61,7 +62,8 @@ print(str.startswith('Coding'))
 #29. ¿La cadena 'Coding For All' termina con la subcadena 'coding'?
 print(str.endswith('coding'))
 #30. Elimina los espacios en blanco a la izquierda y derecha de la cadena '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;'.
-print(str.strip())
+text = '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;'
+print(text.replace('&nbsp;', '').strip())
 #31. Usando `isidentifier()`, ¿cuál de las siguientes devuelve `True`?
  #   - 30DaysOfPython
   #  - thirty_days_of_python
@@ -83,7 +85,7 @@ print("I am enjoying this challenge.\nI just wonder what is next."
    # Name      Age     Country   City
    # Asabeneh  250     Finland   Helsinki
    # ```
-print("Nme\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+print("Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
 #35. Usa un método de formateo de cadenas para imprimir:
 
 #```py
@@ -92,6 +94,7 @@ area = 3.14 * radius ** 2
 print(f"El área de un círculo con radio {radius} es {area} metros cuadrados.")
 # The area of a circle with radius 10 is 314 meters square.
 #```
+print(f"El área de un círculo con radio {radius} es {area} metros cuadrados.")
 
 #36. Usa un método de formateo de cadenas para imprimir:
 
@@ -104,5 +107,4 @@ print(f"El área de un círculo con radio {radius} es {area} metros cuadrados.")
 8 % 6 = 2
 8 // 6 = 1
 8 ** 6 = 262144'''
-
-print(f"8+6 = {8+6}\n8 - 6 = {8-6}\n8 * 6 = {8*6}\n8 / 6 = {8/6:.2f}\n8 % 6 = {8%6}\n8 // 6 = {8//6}\n8 ** 6 = {8**6}")
+print(f"8 + 6 = {8 + 6}\n8 - 6 = {8 - 6}\n8 * 6 = {8 * 6}\n8 / 6 = {8 / 6:.2f}\n8 % 6 = {8 % 6}\n8 // 6 = {8 // 6}\n8 ** 6 = {8 ** 6}")

@@ -13,22 +13,22 @@ Declarar una variable is_true y asignarle un valor
 Declare una variable is_light_on y asígnele un valor
 Declarar múltiples variables en una línea'''
 
-print('Día 2: 30 días de programación en python')
-nombre="Sebas"
-apellido="Gonzalez"
-nombre_completo="Sebas Gonzalez"
-pais="Canada"
-ciudad="Toronto"
-edad=30
-año=1997
-is_married=False
-is_true=True
-is_light_on=False
-nombre,apellido,pais,edad,is_married= "Sebas","Gonzalez","México",30,False
-
+print("Día 2: 30 días de programación en python")
+nombre = " David"
+apellido = " nieto"
+nombre_completo = nombre + apellido
+pais = " México"
+ciudad = " Ciudad de México"
+edad = 30
+año = 1997
+is_married = False
+is_true = True
+is_light_on = False
+variable1, variable2, variable3 = "valor1", "valor2", "valor3"
 
 '''Ejercicios: Nivel 2
 Verifique el tipo de datos de todas sus variables usando la función incorporada type()
+
 Usando la función incorporada len(), encuentre la longitud de su nombre
 Compara la longitud de tu nombre y tu apellido
 Declarar 5 como num_one y 4 como num_two
@@ -57,25 +57,26 @@ print(type(is_married))
 print(type(is_true))
 print(type(is_light_on))
 
-print(f"Longitud del nombre: {len(nombre)}, Longitud del apellido: {len(apellido)}")
-num_one = 5
-num_two = 4
-suma=num_one + num_two
-resta= num_two-num_one
-multiplicacion=num_two*num_one
-division=num_one/num_two
-modulo=num_two%num_one
-exponente=num_one**num_two
-floor_division=num_one//num_two
+len_nombre= len(nombre)
+len_apellido= len(apellido)
+comparacion_longitud = len_nombre == len_apellido
+numero_uno = 5
+numero_dos = 4
+sumar= numero_uno + numero_dos
+restar= numero_uno - numero_dos
+multiplicar_producto_variable= numero_uno * numero_dos
+dividir= numero_uno / numero_dos
 
-radio=30
-area=3.14*radio**2
-circunferencia=2*3.14*radio
+residuo= numero_uno % numero_dos
 
-radio_usuario=int(input("Ingrese el radio del círculo: "))
-area_usuario=3.14*radio_usuario**2
+potencia= numero_uno ** numero_dos
+div_floor= numero_uno // numero_dos
 
-nombre_usuario=input("Ingrese su nombre: ")
-apellido_usuario=input("Ingrese su apellido: ")
-pais_usuario=input("Ingrese su país: ")
-edad_usuario=int(input("Ingrese su edad: "))
+r=30
+area=3.14 * r ** 2
+circunferencia= 2 * 3.14 * r
+
+nombre_usuario = input("Ingrese su nombre: ")
+apellido_usuario = input("Ingrese su apellido: ")
+pais_usuario = input("Ingrese su país: ")
+edad_usuario = input("Ingrese su edad: ")
